@@ -2,6 +2,8 @@
 
 Tarayıcıda çalışan, Türkçe bir görev takip uygulaması. Görev ekleme, listeleme, düzenleme, durum değiştirme ve silme işlemlerini destekler. Veriler aynı tarayıcının LocalStorage alanında saklanır; hesap veya sunucu gerekmez.
 
+**Canlı uygulama:** https://odak-gorev-takip-kucukenes17.netlify.app/
+
 ## Teknolojiler
 
 - React ve Vite
@@ -36,7 +38,7 @@ Veriler yalnızca kullanılan tarayıcıda tutulur. Tarayıcı verileri temizlen
 
 ## Yayınlama
 
-Netlify'da bu GitHub deposunu yeni site olarak bağlayın. `netlify.toml` derleme komutunu (`npm run build`) ve yayın dizinini (`dist`) tanımlar.
+Uygulama Netlify'da `odak-gorev-takip-kucukenes17` projesi olarak yayımlanmıştır. `netlify.toml` derleme komutunu (`npm run build`) ve yayın dizinini (`dist`) tanımlar. Bu depo Netlify'a otomatik dağıtım için bağlanmamıştır; yeni sürüm yayımlamak için proje klasöründe Netlify CLI ile `netlify deploy --prod --dir dist` komutunu çalıştırın.
 
 ## Ekran görüntüsü
 
